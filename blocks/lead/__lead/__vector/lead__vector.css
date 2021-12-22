@@ -7,14 +7,12 @@
     .lead__vector{
         width: 883.76px;
         height: 248.02px;
-        padding: 85,07px 22,3px 246,9px 21,95px;
     }
 }
 @media screen and (max-width:768px){
     .lead__vector{        
         width: 731.38px;
         height: 205.26px;
-        
     }
 }
 @media screen and (max-width:320px){

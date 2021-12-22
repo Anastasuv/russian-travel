@@ -1,0 +1,29 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    margin: 0 auto;
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: white;
+}
+@media screen and (max-width:1024px){
+    .page{
+        max-width: 1024px;
+        max-height: 6895px;
+    }
+    
+}
+@media screen and (max-width:768px){
+    .page{
+        max-width: 768px;
+        max-height: 6855px;
+    }
+    
+}
+@media screen and (max-width:320px){
+    .page{
+        max-width: 320px;
+        max-height: 10023px;
+    }
+    
+}

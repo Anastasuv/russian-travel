@@ -1,0 +1,14 @@
+.place {
+    max-width: 984px;
+    max-height: 660px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-bottom: 80px;
+    gap: 48px 40px;
+} 
+.place:last-child{
+    padding-bottom: 0;
+}

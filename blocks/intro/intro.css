@@ -1,0 +1,9 @@
+.intro {
+    max-width: 690px;
+    height: 429px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 148px;
+}

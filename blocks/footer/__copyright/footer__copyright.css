@@ -1,0 +1,18 @@
+.footer__copyright {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:320px){
+    .footer__copyright{
+        display: flex;
+        justify-content: flex-start;
+        max-height: 14px;
+        
+    }
+}
+@media screen and (max-width:1184px) {
+    .cover__item{
+        min-height: 640px;
+    }
+}

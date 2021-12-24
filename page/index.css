@@ -13,6 +13,7 @@
 @import url(../blocks/lead/__lead/__container-image/lead__container-image.css);
 @import url(../blocks/lead/__lead/__image/lead__image.css);
 @import url(../blocks/lead/__lead/__vector/lead__vector.css);
+@import url(../blocks/lead/__lead/__vector/__vector-img/lead__vector-img.css);
 @import url(../blocks/lead/__lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);

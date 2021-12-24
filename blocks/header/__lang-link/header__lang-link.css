@@ -11,12 +11,3 @@
 .header__lang-link:hover{
     text-decoration-line: underline;
 }
-@media screen and (max-width:320px){
-    .header__lang-link{
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 20px;
-    }
-}

@@ -1,6 +1,10 @@
 .footer__link {
     padding-left: 18px;
 }
+.footer__link:hover{
+    opacity: 0.8;
+    color: white;
+}
 @media screen and (max-width:320px){
     .footer__link{
         padding-left:0;

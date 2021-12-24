@@ -4,3 +4,9 @@
     justify-content: flex-start;
     row-gap: 26px;
 }
+@media screen and (max-width:768px) {
+    .place__grid{
+        row-gap: 25px;
+    }
+    
+}

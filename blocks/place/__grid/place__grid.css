@@ -13,9 +13,8 @@
 @media screen and (max-width:320px) {
     .place__grid{
         width: 288px;
-        display: grid;
-        row-gap: 25px;
-        grid-row: 4;
+        display: flex;
+        flex-direction: column;
         height: 468px;
 
     }

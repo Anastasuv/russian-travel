@@ -20,8 +20,7 @@
 }
 @media screen and (max-width:320px) {
     .place__image{
-        grid-row: 3/4;
-        grid-column: 1/2;
+        
         width: 320px;
         height: 320px;
     }

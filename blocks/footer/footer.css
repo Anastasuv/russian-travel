@@ -13,10 +13,12 @@
         max-width: 928px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:768px) {
     .footer{
         max-width: 720px;
         padding: 88px 24px 24px 24px;
+        background-color: #2A2C2F;
+        height: 18px;
     }
 }
 @media screen and (max-width:320px){
@@ -28,7 +30,7 @@
         max-width: 186px;
         max-height: 310px;
         margin: 0;
-        
+        background-color: #2A2C2F;
     }
 }
    

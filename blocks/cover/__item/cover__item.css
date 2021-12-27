@@ -29,11 +29,15 @@
 .cover__item:hover::before{
     opacity: 0.8;
 }
+@media screen and (max-width:1184px) {
+    .cover__item{
+        max-height: 640px;
+    }
+}
 @media screen and (max-width:320px) {
     .cover__item{
-        width: 320px;
-height: 200px;
+        max-width: 320px;
+        max-height: 200px;
+        background-size: contain;
     }
-
-    
 }

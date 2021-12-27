@@ -9,5 +9,6 @@
     z-index: 1;
 }
 .header__lang-link:hover{
-    text-decoration-line: underline;
+    text-decoration: underline;
+    color: white;
 }

@@ -2,11 +2,22 @@
     display: flex;
     flex-direction: column; 
     justify-content: flex-start;
-    row-gap: 26px;
+  
 }
 @media screen and (max-width:768px) {
     .place__grid{
+        display: grid;
         row-gap: 25px;
     }
-    
+}
+@media screen and (max-width:320px) {
+    .place__grid{
+        width: 288px;
+        display: grid;
+        row-gap: 25px;
+        grid-row: 4;
+        height: 468px;
+
+    }
+
 }

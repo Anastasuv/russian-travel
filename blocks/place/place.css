@@ -3,7 +3,6 @@
     max-height: 660px;
     margin: 0 auto 80px auto;
     display: grid;
-
     grid-template-columns: 1fr 1fr;
     gap: 48px 40px;
 } 
@@ -13,7 +12,6 @@
 @media screen and (max-width:1024px) {
     .place{
         max-width: 928px;
-        height: 640px;
         gap: 48px 32px;
     }  
     .place:last-child{
@@ -23,7 +21,13 @@
 @media screen and (max-width:768px){
     .place{
         width: 720px;
-        height: 481px;
-        gap: 48px 28px;
+        
+    }
+}
+@media screen and (max-width:320px) {
+    .place{
+        max-width: 320px;
+        padding-bottom:50px ;
+      
     }
 }

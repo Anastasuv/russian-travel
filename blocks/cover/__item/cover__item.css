@@ -29,3 +29,11 @@
 .cover__item:hover::before{
     opacity: 0.8;
 }
+@media screen and (max-width:320px) {
+    .cover__item{
+        width: 320px;
+height: 200px;
+    }
+
+    
+}

@@ -1,6 +1,5 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/font.css);
-@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -24,12 +23,12 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__grid/place__grid.css);
+@import url(../blocks/place/__grid/_paragrah/place__grid-paragraph.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__webside/place__webside.css);
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
-@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__item/cover__item.css);
 @import url(../blocks/cover/__title/cover__title.css);

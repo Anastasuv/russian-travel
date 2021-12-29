@@ -11,5 +11,5 @@
 * Структура расположения CSS по БЭМ Nested
 
 
-**GitHub Pages **
+#### GitHub Pages 
 https://anastasuv.github.io/russian-travel/index.html 

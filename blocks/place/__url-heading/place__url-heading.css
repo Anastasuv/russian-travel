@@ -6,6 +6,8 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased; 
 }
 @media screen and (max-width:768px) {
     .place__url-heading{ 
@@ -26,5 +28,7 @@
         font-size: 18px;
         line-height: 22px;
         letter-spacing: 2px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }

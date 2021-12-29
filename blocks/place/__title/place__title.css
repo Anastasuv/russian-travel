@@ -7,6 +7,8 @@
     line-height: 76px;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased; 
 }
 @media screen and (max-width:1024px) {
     .place__title{
@@ -27,7 +29,6 @@
 }
 @media screen and (max-width:320px) {
     .place__title{
-        display: flex;
         font-family: Inter;
         font-style: normal;
         font-weight: 900;

@@ -6,6 +6,8 @@
     align-items: flex-start;
     padding-left: 148px;
     padding-top: 92px;
+    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased; 
 }
 @media screen and (max-width:1024px){
     .intro{

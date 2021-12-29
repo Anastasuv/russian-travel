@@ -9,5 +9,7 @@
         flex-direction: column;
         justify-content: flex-start;
         padding-bottom: 32px;
+        background-color: #2A2C2F;
+      
     }
 }

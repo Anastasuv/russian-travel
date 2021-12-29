@@ -3,6 +3,8 @@
     min-width: 320px;
     max-height:1005px;
     margin: auto;
+    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased; 
 }
 @media screen and (max-width:1024px) {
     .lead{

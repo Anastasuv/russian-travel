@@ -6,7 +6,7 @@
     margin-bottom: 32px;
     max-width: 560px;
     min-width: 288px;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing:antialiased; 
     -moz-osx-font-smoothing: grayscale; 
 }
 @media screen and (max-width:320px){

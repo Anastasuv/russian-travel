@@ -9,10 +9,10 @@
     letter-spacing: 0;
     text-align: left;
     -webkit-font-smoothing: antialiased; 
-    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
 }
 .footer__link:first-child {
-    padding: 0;
+    padding:0;
 }
 .footer__link:hover {
     opacity: 0.8;

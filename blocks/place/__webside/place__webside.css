@@ -1,9 +1,9 @@
 .place__website {
     display:grid; 
-    list-style: none;
+    list-style:none;
     align-self: end;
     margin:0;  
-    padding-left: 0;
+    padding-left:0;
     row-gap: 12px;
 }
 @media screen and (max-width:768px) {

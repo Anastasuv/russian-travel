@@ -8,7 +8,7 @@
     line-height: 18px;
     letter-spacing: 0;
     text-align: left;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 .footer__link:first-child {

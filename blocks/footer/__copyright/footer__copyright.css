@@ -2,9 +2,8 @@
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
-    -moz-osx-font-smoothing: grayscale; 
-    -webkit-font-smoothing:antialiased; 
-    
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing:antialiased;
 }
 @media screen and (max-width:1184px) {
     .footer__copyright{

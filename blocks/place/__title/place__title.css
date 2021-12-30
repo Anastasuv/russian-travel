@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     -webkit-font-smoothing: antialiased; 
-    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
 }
 @media screen and (max-width:1024px) {
     .place__title{

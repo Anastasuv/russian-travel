@@ -6,8 +6,8 @@
     margin: 0;
     padding: 0;
     row-gap: 25px;
-    -webkit-font-smoothing: antialiased; 
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing:antialiased; 
+    -moz-osx-font-smoothing: grayscale;  
 }
 @media screen and (max-width:768px) {
     .place__grid-paragraph{
@@ -15,7 +15,6 @@
         font-family: Inter;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
         line-height: 1.63;
         margin: 0 auto;
 

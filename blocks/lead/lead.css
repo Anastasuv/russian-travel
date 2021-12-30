@@ -4,7 +4,7 @@
     max-height:1005px;
     margin: auto;
     -webkit-font-smoothing: antialiased; 
-    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
 }
 @media screen and (max-width:1024px) {
     .lead{
@@ -26,6 +26,6 @@
     .lead{
         max-width: 320px;
         max-height: 406px;
-        margin:48px 2px 64px 2px ;
+        margin:48px 2px 64px 2px;
     }
 }

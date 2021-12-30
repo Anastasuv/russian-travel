@@ -6,6 +6,8 @@
     line-height: 100px;
     padding: 0 132px;
     margin: 0;
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width:320px) {
     .lead__title{

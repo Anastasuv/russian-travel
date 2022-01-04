@@ -5,18 +5,17 @@
     text-align: center;
     margin-bottom: 32px;
     max-width: 560px;
-    min-width: 288px;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 @media screen and (max-width:320px){
     .cover__title{
         max-width: 288px;
-        max-height: 70px;
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        padding: 0 16px;
         text-align: center;
+        font-family: 'Inter';
+        margin-bottom: 16px;
     }
 }

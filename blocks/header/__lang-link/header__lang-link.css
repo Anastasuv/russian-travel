@@ -12,5 +12,7 @@
 .header__lang-link:hover{
     text-decoration: underline;
     color: white;
-   
+}
+.header__lang-link:first-child{
+    padding-left: 0;
 }

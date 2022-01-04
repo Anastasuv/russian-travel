@@ -1,6 +1,5 @@
 .place {
-   max-width: 984px;
-    max-height: 660px;
+    max-width: 984px;
     margin: 0 auto 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -11,7 +10,7 @@
 }
 @media screen and (max-width:1024px) {
     .place{
-       max-width: 928px;
+        max-width: 928px;
         gap: 48px 32px;
     }  
     .place:last-child{
@@ -25,9 +24,8 @@
 }
 @media screen and (max-width:320px) {
     .place{
-       display: flex;
-        flex-direction: column;
+        grid-template-columns: 1fr;
         max-width: 320px;
-        padding-bottom:50px;
+        row-gap: 50px;
     }
 }

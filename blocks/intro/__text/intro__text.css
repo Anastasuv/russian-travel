@@ -1,4 +1,5 @@
 .intro__text {
+    font-family: 'Inter';
     margin: 0;
     font-weight: normal;
     font-size: 16px;
@@ -6,5 +7,9 @@
     padding-bottom: 33px;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale; 
-
+}
+@media screen and (max-width:320px) {
+    .intro__text{
+        max-width: 288px;
+    }
 }

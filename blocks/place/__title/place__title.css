@@ -42,8 +42,7 @@
         justify-content: end;
         text-align: end;
         margin: auto;
-        height: 35px;
-        width: 288px;
+        max-width: 288px;
     }
 
     

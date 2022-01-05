@@ -10,7 +10,7 @@
 @media screen and (max-width:768px) {
     .place__website{
         max-width: 352px;
-        height: 46px;
+        min-height: 46px;
     }
 }
 @media screen and (max-width:320px) {

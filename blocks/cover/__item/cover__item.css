@@ -38,7 +38,7 @@
     .cover__item{
         font-family: 'Inter';
         width: 320px;
-        max-height: 200px;
+        min-height: 200px;
         background-size: contain;
     }
 }

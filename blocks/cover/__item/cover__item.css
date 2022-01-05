@@ -6,7 +6,7 @@
     position: relative;
     color: white;
     text-decoration: none;
-    height: 740px;
+    min-height: 740px;
     background-image: url(../../../images/cover-trains.jpg);
     background-size:cover;
     background-repeat:no-repeat;

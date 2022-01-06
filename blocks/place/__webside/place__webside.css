@@ -1,6 +1,5 @@
 .place__website {
     display:grid;
-    list-style:none;
     align-self: end;
     margin:0;
     padding-left:0;
@@ -10,7 +9,6 @@
 @media screen and (max-width:768px) {
     .place__website{
         max-width: 352px;
-        min-height: 46px;
     }
 }
 @media screen and (max-width:320px) {

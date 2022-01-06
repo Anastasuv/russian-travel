@@ -1,7 +1,7 @@
 .content {
     margin-top: 56px;
  }
- @media screen and(max-width:1024px) {
+ @media screen and (max-width:1024px) {
      .content{
          padding-top: 48px;
      }  
@@ -9,6 +9,8 @@
  @media screen and (max-width:320px) {
      .content{ 
       background-color: #2A2C2F;   
+      margin-top: 48px;
+      padding: 0;
       
      }
  }

@@ -1,5 +1,6 @@
 .header__lang-link {
-    max-width: 30px;
+    font-family: "Inter", "Arial ", sans-serif;
+   
     margin: 0;
     font-size: 24px;
     font-weight: normal;
@@ -7,10 +8,6 @@
     z-index: 1;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;  
-}
-.header__lang-link:hover{
-    text-decoration: underline;
-    color: white;
 }
 .header__lang-link:first-child{
     padding-left: 0;

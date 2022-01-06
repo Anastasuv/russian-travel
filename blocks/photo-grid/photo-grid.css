@@ -26,7 +26,8 @@
     .photo-grid{
         width: 288px;
         flex-direction: column;
-        margin: 64px auto 64px;
+        margin: 0;
         grid-row:12px;
+        padding-top: 64px;
     }
 }

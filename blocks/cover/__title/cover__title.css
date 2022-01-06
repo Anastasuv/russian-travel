@@ -1,9 +1,11 @@
 .cover__title { 
+    font-family: "Inter", "Arial ", sans-serif;
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin: 0;
     max-width: 560px;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -15,7 +17,6 @@
         font-size: 32px;
         line-height: 35px;
         text-align: center;
-        font-family: 'Inter';
         margin-bottom: 16px;
     }
 }

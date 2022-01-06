@@ -3,7 +3,7 @@
     margin: 0 auto 80px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 48px 40px;
+    gap: 48px 13px;
 } 
 .place:last-child{
     margin-bottom: 0;

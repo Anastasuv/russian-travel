@@ -6,7 +6,7 @@
     gap: 48px 40px;
 } 
 .place:last-child{
-    margin-top: 0;
+    margin-bottom: 0;
 }
 @media screen and (max-width:1024px) {
     .place{

@@ -37,13 +37,20 @@
     .cover__item{
         max-width: 1024px;
         background-size: contain;
-        
     }
 }
+@media screen and (max-width:768px) {
+    .cover__item{
+        max-width: 768px;
+        min-height: 575px;
+
+    }
+
+}
+
 @media screen and (max-width:320px) {
     .cover__item{
-        font-family: "Inter", "Arial ", sans-serif;
-        width: 320px;
+        max-width: 320px;
         min-height: 200px;
         background-size: contain;
     }

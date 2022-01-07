@@ -21,17 +21,14 @@
         line-height: 1.63;
         margin: 0 auto;
         padding: 0;
-        max-width: 352px;
     }   
-    
 }
 @media screen and (max-width:320px) {
     .place__grid-paragraph{
         font-weight: 400;
         line-height: 1.63;
         font-size: 16px;
-        max-width: 288px;
-        margin: 0 16px;
+        min-width: 288px;
         padding: 0;
     }
 

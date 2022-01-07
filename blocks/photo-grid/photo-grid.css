@@ -4,6 +4,7 @@
     gap: 16px 16px;
     grid-template-columns: repeat(auto-fit, 284px);
     max-width: 1184px;
+    justify-content: center;
 }
 @media screen and (max-width:1024px) {
     .photo-grid{
@@ -16,18 +17,20 @@
 }
 @media screen and (max-width:768px) {
     .photo-grid{
-        width: 720px;
+        max-width: 720px;
         margin: 82px 24px 102px 24px;
         grid-template-columns: repeat(auto-fit, 352px);
-        grid: 16px 16px;
+        row-gap: 16px;
+        
     }
 }
 @media screen and (max-width:320px) {
     .photo-grid{
-        width: 288px;
-        flex-direction: column;
+        width: 90%;
         margin: 0 auto;
         row-gap: 12px;
         padding-top: 64px;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, 288px);
     }
 }

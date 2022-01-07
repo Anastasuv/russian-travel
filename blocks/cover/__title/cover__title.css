@@ -10,11 +10,18 @@
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+@media screen and (max-width: 580px){
+.cover__title {
+    max-width: 288px;
+    margin-top: 33px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-bottom:0 ;
+}
+}
 @media screen and (max-width:320px){
     .cover__title{
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
+
         margin: 15px 16px 0 auto ;
         padding: 0;
     }

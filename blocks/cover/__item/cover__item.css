@@ -43,11 +43,13 @@
     .cover__item{
         max-width: 768px;
         min-height: 575px;
-
     }
-
 }
-
+@media screen and (max-width: 580px){
+    .cover__item{
+        min-height: 360px;
+    }
+}
 @media screen and (max-width:320px) {
     .cover__item{
         max-width: 320px;

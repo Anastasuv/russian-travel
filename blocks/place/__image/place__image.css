@@ -7,9 +7,9 @@
 }
 @media screen and (max-width:1024px){
     .place__image{
-        max-width: 440px;
+       /* max-width: 440px;
         height: 440px;
-    }
+    }*/
 }
 @media screen and (max-width:768px) {
     .place__image{
@@ -18,13 +18,27 @@
         align-self: start;    
     }
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:580px) {
     .place__image{
-       grid-row: 3;
+        grid-row: 3;
+        max-width: 340px;
+    }
+}
+@media screen and (max-width:324px) {
+    .place__image{
        max-width: 320px;
        max-height: 320px;
-       
-
- 
     }  
 }
+/*@media screen and (max-width:628px) {
+    .place__image{
+       grid-row: 3;
+       width: 100%;
+
+    }  
+}
+@media screen and (max-width:360px) {
+    .place__image{
+        width: 100%;
+    }
+}*/

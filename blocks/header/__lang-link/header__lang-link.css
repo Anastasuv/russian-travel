@@ -8,10 +8,6 @@
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;  
 }
-.header__lang-link:first-child{
-    padding-left: 0;
-}
-
 @media screen and (max-width:320px) {
     .header__lang-link{
         font-style: normal;

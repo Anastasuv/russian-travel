@@ -13,7 +13,7 @@
 @media screen and (max-width:320px) {
     .footer__item{
         justify-content: flex-start;
-        padding-bottom: 48px;
+        padding-bottom: 16px;
         background-color: #2A2C2F;
     }
 }

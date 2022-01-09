@@ -8,20 +8,19 @@
     line-height: 76px;
     margin: 0;
     padding: 0;
+    letter-spacing: 0;
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale; 
 }
 @media screen and (max-width:1024px) {
     .place__title{
         max-width: 440px;
-        
     }
 }
 @media screen and (max-width:768px) {
     .place__title{
         max-width: 97%;
         font-style: normal;
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
     }
@@ -38,6 +37,5 @@
 @media screen and (max-width:320px) {
     .place__title{
         text-align: start;
-        
     }
 }

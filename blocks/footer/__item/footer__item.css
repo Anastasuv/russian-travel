@@ -6,13 +6,12 @@
 @media screen and (max-width: 580px){
     .footer__item{
         flex-direction: column;
-    position: relative;
+        position: relative;
     }
 }
 
 @media screen and (max-width:320px) {
     .footer__item{
-        flex-direction: column;
         justify-content: flex-start;
         padding-bottom: 48px;
         background-color: #2A2C2F;

@@ -17,7 +17,6 @@
 }
 .footer__link:hover {
     opacity: 0.8;
-    color: white;
 }
 @media screen and (max-width:1024px){
     .footer__link {    
@@ -33,10 +32,7 @@
     }
     .footer__link:first-child {
         margin-bottom: 32px;
-    }
-    .footer__link:last-child{
-        margin-bottom: 0;
-    }  
+    } 
     
 }
 @media screen and (max-width:320px){

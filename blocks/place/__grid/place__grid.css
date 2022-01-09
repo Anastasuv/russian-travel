@@ -1,7 +1,4 @@
 .place__grid{
-    display: flex;
-    flex-direction:column;
-    justify-content: flex-start;
     max-width: 484px;
 }
 @media screen and (max-width:580px) {

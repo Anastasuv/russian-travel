@@ -4,8 +4,11 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+    border-bottom: 1px solid white;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-decoration: none;
+    margin-top: 7px;
+    display: inline-block;
 }
-.place__link:hover{
-    text-decoration-line: underline;
-    opacity: 0.8;
-}
+
